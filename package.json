@@ -1,0 +1,15 @@
+{
+  "name": "poisonicon",
+  "version": "0.0.1",
+  "description": "Pick your poison(icon)",
+  "main": "index.js",
+  "keywords": [
+    "svg",
+    "icons"
+  ],
+  "devDependencies": {
+    "nullstack": "*"
+  },
+  "author": "Dayson Marx",
+  "license": "MIT"
+}
