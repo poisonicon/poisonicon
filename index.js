@@ -60,6 +60,8 @@ import SquaresStroke from './squares/stroke';
 import SquaresFill from './squares/fill';
 import TriangleStroke from './triangle/stroke';
 import TriangleFill from './triangle/fill';
+import YoutubeStroke from './youtube/stroke';
+import YoutubeFill from './youtube/fill';
 function pickIcon(name, type) {
   if(name === 'arrow' && type === 'stroke') return ArrowStroke;
   if(name === 'arrow' && type === 'fill') return ArrowFill;
@@ -119,6 +121,8 @@ function pickIcon(name, type) {
   if(name === 'squares' && type === 'fill') return SquaresFill;
   if(name === 'triangle' && type === 'stroke') return TriangleStroke;
   if(name === 'triangle' && type === 'fill') return TriangleFill;
+  if(name === 'youtube' && type === 'stroke') return YoutubeStroke;
+  if(name === 'youtube' && type === 'fill') return YoutubeFill;
   return false;
 }
 export default ({name, type="fill", width, height, length, color, title, rotation, animation, speed, class: klass}) => {
