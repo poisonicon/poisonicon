@@ -28,6 +28,8 @@ import ExitStroke from './exit/stroke';
 import ExitFill from './exit/fill';
 import FacebookStroke from './facebook/stroke';
 import FacebookFill from './facebook/fill';
+import GithubStroke from './github/stroke';
+import GithubFill from './github/fill';
 import GlobeStroke from './globe/stroke';
 import GlobeFill from './globe/fill';
 import HandshakeStroke from './handshake/stroke';
@@ -89,6 +91,8 @@ function pickIcon(name, type) {
   if(name === 'exit' && type === 'fill') return ExitFill;
   if(name === 'facebook' && type === 'stroke') return FacebookStroke;
   if(name === 'facebook' && type === 'fill') return FacebookFill;
+  if(name === 'github' && type === 'stroke') return GithubStroke;
+  if(name === 'github' && type === 'fill') return GithubFill;
   if(name === 'globe' && type === 'stroke') return GlobeStroke;
   if(name === 'globe' && type === 'fill') return GlobeFill;
   if(name === 'handshake' && type === 'stroke') return HandshakeStroke;
