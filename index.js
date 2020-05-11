@@ -36,6 +36,8 @@ import HeartbeatStroke from './heartbeat/stroke';
 import HeartbeatFill from './heartbeat/fill';
 import HouseStroke from './house/stroke';
 import HouseFill from './house/fill';
+import InstagramStroke from './instagram/stroke';
+import InstagramFill from './instagram/fill';
 import MagnifierStroke from './magnifier/stroke';
 import MagnifierFill from './magnifier/fill';
 import PawStroke from './paw/stroke';
@@ -93,6 +95,8 @@ function pickIcon(name, type) {
   if(name === 'heartbeat' && type === 'fill') return HeartbeatFill;
   if(name === 'house' && type === 'stroke') return HouseStroke;
   if(name === 'house' && type === 'fill') return HouseFill;
+  if(name === 'instagram' && type === 'stroke') return InstagramStroke;
+  if(name === 'instagram' && type === 'fill') return InstagramFill;
   if(name === 'magnifier' && type === 'stroke') return MagnifierStroke;
   if(name === 'magnifier' && type === 'fill') return MagnifierFill;
   if(name === 'paw' && type === 'stroke') return PawStroke;
