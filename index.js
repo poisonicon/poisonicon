@@ -16,6 +16,8 @@ import CreditCardStroke from './credit-card/stroke';
 import CreditCardFill from './credit-card/fill';
 import CutleryStroke from './cutlery/stroke';
 import CutleryFill from './cutlery/fill';
+import DollarBadgeStroke from './dollar-badge/stroke';
+import DollarBadgeFill from './dollar-badge/fill';
 import DollarHandStroke from './dollar-hand/stroke';
 import DollarHandFill from './dollar-hand/fill';
 import DollarListStroke from './dollar-list/stroke';
@@ -81,6 +83,8 @@ function pickIcon(name, type) {
   if(name === 'credit-card' && type === 'fill') return CreditCardFill;
   if(name === 'cutlery' && type === 'stroke') return CutleryStroke;
   if(name === 'cutlery' && type === 'fill') return CutleryFill;
+  if(name === 'dollar-badge' && type === 'stroke') return DollarBadgeStroke;
+  if(name === 'dollar-badge' && type === 'fill') return DollarBadgeFill;
   if(name === 'dollar-hand' && type === 'stroke') return DollarHandStroke;
   if(name === 'dollar-hand' && type === 'fill') return DollarHandFill;
   if(name === 'dollar-list' && type === 'stroke') return DollarListStroke;
