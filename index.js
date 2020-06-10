@@ -8,6 +8,8 @@ import ArrowOutStroke from './arrow-out/stroke';
 import ArrowOutFill from './arrow-out/fill';
 import BarsStroke from './bars/stroke';
 import BarsFill from './bars/fill';
+import BillStroke from './bill/stroke';
+import BillFill from './bill/fill';
 import CarStroke from './car/stroke';
 import CarFill from './car/fill';
 import CogStroke from './cog/stroke';
@@ -75,6 +77,8 @@ function pickIcon(name, type) {
   if(name === 'arrow-out' && type === 'fill') return ArrowOutFill;
   if(name === 'bars' && type === 'stroke') return BarsStroke;
   if(name === 'bars' && type === 'fill') return BarsFill;
+  if(name === 'bill' && type === 'stroke') return BillStroke;
+  if(name === 'bill' && type === 'fill') return BillFill;
   if(name === 'car' && type === 'stroke') return CarStroke;
   if(name === 'car' && type === 'fill') return CarFill;
   if(name === 'cog' && type === 'stroke') return CogStroke;
