@@ -76,6 +76,8 @@ import TableStroke from './table/stroke';
 import TableFill from './table/fill';
 import TrashStroke from './trash/stroke';
 import TrashFill from './trash/fill';
+import TrayStroke from './tray/stroke';
+import TrayFill from './tray/fill';
 import TriangleStroke from './triangle/stroke';
 import TriangleFill from './triangle/fill';
 import YoutubeStroke from './youtube/stroke';
@@ -155,6 +157,8 @@ function pickIcon(name, type) {
   if(name === 'table' && type === 'fill') return TableFill;
   if(name === 'trash' && type === 'stroke') return TrashStroke;
   if(name === 'trash' && type === 'fill') return TrashFill;
+  if(name === 'tray' && type === 'stroke') return TrayStroke;
+  if(name === 'tray' && type === 'fill') return TrayFill;
   if(name === 'triangle' && type === 'stroke') return TriangleStroke;
   if(name === 'triangle' && type === 'fill') return TriangleFill;
   if(name === 'youtube' && type === 'stroke') return YoutubeStroke;
