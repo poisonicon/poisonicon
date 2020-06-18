@@ -12,6 +12,8 @@ import BillStroke from './bill/stroke';
 import BillFill from './bill/fill';
 import CarStroke from './car/stroke';
 import CarFill from './car/fill';
+import CheckStroke from './check/stroke';
+import CheckFill from './check/fill';
 import CogStroke from './cog/stroke';
 import CogFill from './cog/fill';
 import CreditCardStroke from './credit-card/stroke';
@@ -83,6 +85,8 @@ function pickIcon(name, type) {
   if(name === 'bill' && type === 'fill') return BillFill;
   if(name === 'car' && type === 'stroke') return CarStroke;
   if(name === 'car' && type === 'fill') return CarFill;
+  if(name === 'check' && type === 'stroke') return CheckStroke;
+  if(name === 'check' && type === 'fill') return CheckFill;
   if(name === 'cog' && type === 'stroke') return CogStroke;
   if(name === 'cog' && type === 'fill') return CogFill;
   if(name === 'credit-card' && type === 'stroke') return CreditCardStroke;
