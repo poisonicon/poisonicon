@@ -62,6 +62,8 @@ import PriceTagStroke from './price-tag/stroke';
 import PriceTagFill from './price-tag/fill';
 import PrinterStroke from './printer/stroke';
 import PrinterFill from './printer/fill';
+import QcrcodeStroke from './qcrcode/stroke';
+import QcrcodeFill from './qcrcode/fill';
 import QuestionMarkStroke from './question-mark/stroke';
 import QuestionMarkFill from './question-mark/fill';
 import SafeBoxStroke from './safe-box/stroke';
@@ -137,6 +139,8 @@ function pickIcon(name, type) {
   if(name === 'price-tag' && type === 'fill') return PriceTagFill;
   if(name === 'printer' && type === 'stroke') return PrinterStroke;
   if(name === 'printer' && type === 'fill') return PrinterFill;
+  if(name === 'qcrcode' && type === 'stroke') return QcrcodeStroke;
+  if(name === 'qcrcode' && type === 'fill') return QcrcodeFill;
   if(name === 'question-mark' && type === 'stroke') return QuestionMarkStroke;
   if(name === 'question-mark' && type === 'fill') return QuestionMarkFill;
   if(name === 'safe-box' && type === 'stroke') return SafeBoxStroke;
