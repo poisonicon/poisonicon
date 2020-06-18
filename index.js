@@ -48,6 +48,8 @@ import MagnifierStroke from './magnifier/stroke';
 import MagnifierFill from './magnifier/fill';
 import PawStroke from './paw/stroke';
 import PawFill from './paw/fill';
+import PencilStroke from './pencil/stroke';
+import PencilFill from './pencil/fill';
 import PeopleStroke from './people/stroke';
 import PeopleFill from './people/fill';
 import PersonStroke from './person/stroke';
@@ -117,6 +119,8 @@ function pickIcon(name, type) {
   if(name === 'magnifier' && type === 'fill') return MagnifierFill;
   if(name === 'paw' && type === 'stroke') return PawStroke;
   if(name === 'paw' && type === 'fill') return PawFill;
+  if(name === 'pencil' && type === 'stroke') return PencilStroke;
+  if(name === 'pencil' && type === 'fill') return PencilFill;
   if(name === 'people' && type === 'stroke') return PeopleStroke;
   if(name === 'people' && type === 'fill') return PeopleFill;
   if(name === 'person' && type === 'stroke') return PersonStroke;
