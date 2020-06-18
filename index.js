@@ -72,6 +72,8 @@ import ShoppingCartStroke from './shopping-cart/stroke';
 import ShoppingCartFill from './shopping-cart/fill';
 import SquaresStroke from './squares/stroke';
 import SquaresFill from './squares/fill';
+import TableStroke from './table/stroke';
+import TableFill from './table/fill';
 import TrashStroke from './trash/stroke';
 import TrashFill from './trash/fill';
 import TriangleStroke from './triangle/stroke';
@@ -149,6 +151,8 @@ function pickIcon(name, type) {
   if(name === 'shopping-cart' && type === 'fill') return ShoppingCartFill;
   if(name === 'squares' && type === 'stroke') return SquaresStroke;
   if(name === 'squares' && type === 'fill') return SquaresFill;
+  if(name === 'table' && type === 'stroke') return TableStroke;
+  if(name === 'table' && type === 'fill') return TableFill;
   if(name === 'trash' && type === 'stroke') return TrashStroke;
   if(name === 'trash' && type === 'fill') return TrashFill;
   if(name === 'triangle' && type === 'stroke') return TriangleStroke;
