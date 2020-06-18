@@ -60,6 +60,8 @@ import PlusStroke from './plus/stroke';
 import PlusFill from './plus/fill';
 import PriceTagStroke from './price-tag/stroke';
 import PriceTagFill from './price-tag/fill';
+import PrinterStroke from './printer/stroke';
+import PrinterFill from './printer/fill';
 import QuestionMarkStroke from './question-mark/stroke';
 import QuestionMarkFill from './question-mark/fill';
 import SafeBoxStroke from './safe-box/stroke';
@@ -133,6 +135,8 @@ function pickIcon(name, type) {
   if(name === 'plus' && type === 'fill') return PlusFill;
   if(name === 'price-tag' && type === 'stroke') return PriceTagStroke;
   if(name === 'price-tag' && type === 'fill') return PriceTagFill;
+  if(name === 'printer' && type === 'stroke') return PrinterStroke;
+  if(name === 'printer' && type === 'fill') return PrinterFill;
   if(name === 'question-mark' && type === 'stroke') return QuestionMarkStroke;
   if(name === 'question-mark' && type === 'fill') return QuestionMarkFill;
   if(name === 'safe-box' && type === 'stroke') return SafeBoxStroke;
