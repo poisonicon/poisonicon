@@ -80,6 +80,8 @@ import StockStroke from './stock/stroke';
 import StockFill from './stock/fill';
 import TableStroke from './table/stroke';
 import TableFill from './table/fill';
+import ThumbsStroke from './thumbs/stroke';
+import ThumbsFill from './thumbs/fill';
 import TrashStroke from './trash/stroke';
 import TrashFill from './trash/fill';
 import TrayStroke from './tray/stroke';
@@ -167,6 +169,8 @@ function pickIcon(name, type) {
   if(name === 'stock' && type === 'fill') return StockFill;
   if(name === 'table' && type === 'stroke') return TableStroke;
   if(name === 'table' && type === 'fill') return TableFill;
+  if(name === 'thumbs' && type === 'stroke') return ThumbsStroke;
+  if(name === 'thumbs' && type === 'fill') return ThumbsFill;
   if(name === 'trash' && type === 'stroke') return TrashStroke;
   if(name === 'trash' && type === 'fill') return TrashFill;
   if(name === 'tray' && type === 'stroke') return TrayStroke;
