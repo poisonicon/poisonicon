@@ -12,6 +12,8 @@ import BillStroke from './bill/stroke';
 import BillFill from './bill/fill';
 import CarStroke from './car/stroke';
 import CarFill from './car/fill';
+import ChatBubbleStroke from './chat-bubble/stroke';
+import ChatBubbleFill from './chat-bubble/fill';
 import CheckStroke from './check/stroke';
 import CheckFill from './check/fill';
 import CogStroke from './cog/stroke';
@@ -101,6 +103,8 @@ function pickIcon(name, type) {
   if(name === 'bill' && type === 'fill') return BillFill;
   if(name === 'car' && type === 'stroke') return CarStroke;
   if(name === 'car' && type === 'fill') return CarFill;
+  if(name === 'chat-bubble' && type === 'stroke') return ChatBubbleStroke;
+  if(name === 'chat-bubble' && type === 'fill') return ChatBubbleFill;
   if(name === 'check' && type === 'stroke') return CheckStroke;
   if(name === 'check' && type === 'fill') return CheckFill;
   if(name === 'cog' && type === 'stroke') return CogStroke;
